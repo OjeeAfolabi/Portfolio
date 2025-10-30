@@ -6,6 +6,7 @@ import MobileNav from "./components/MobileNav";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,13 +17,14 @@ const App = () => {
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
-        }bg-black text-[#E5E5E5]`}
+        } bg-[#14213D] text-[#E5E5E5]`}
       >
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileNav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
-        <Projects/>
+        <Projects />
+        <Contact />
       </div>
     </>
   );
