@@ -20,7 +20,7 @@ const About = () => {
     "Canva",
   ];
   return (
-    <div
+    <section
       id="about"
       className="min-h-screen flex flex-col items-center justify-start gap-3 py-8"
     >
@@ -143,7 +143,7 @@ const About = () => {
           </div>
         </div>
       </Scroll>
-    </div>
+    </section>
   );
 };
 

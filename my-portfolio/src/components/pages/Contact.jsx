@@ -24,7 +24,7 @@ const Contact = () => {
       .catch(() => alert("An error occurred, please try again"));
   };
   return (
-    <div
+    <section
       id="contacts"
       className="min-h-screen flex items-center justify-center py-20"
     >
@@ -91,7 +91,7 @@ const Contact = () => {
           </form>
         </div>
       </Scroll>
-    </div>
+    </section>
   );
 };
 

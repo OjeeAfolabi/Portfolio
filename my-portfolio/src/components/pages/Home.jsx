@@ -12,9 +12,9 @@ const Home = () => {
             Hi, I'm Ojee
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a fullstack developer who loves crafting clean, scalable web
+            A fullstack developer who loves crafting clean, scalable web
             applications, My goal is to build solutions that offer both
-            exceptional perfomance and a delightful user experience
+            exceptional perfomance, functionality and a delightful user experience, see you on the inside!
           </p>
           <div className="flex justify-center space-x-4">
             <a
