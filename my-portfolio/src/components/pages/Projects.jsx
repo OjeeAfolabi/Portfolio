@@ -51,7 +51,9 @@ const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2">C-nema</h3>
               <p className="text-gray-400 mb-4">
-                Fullstack Movie App, Web application. Sort Movies by popular movies, top rated, upcoming movies... Supporting and Playing Movie Trailer from the TMDB api. 
+                Fullstack Movie App, Web application. Sort Movies by popular
+                movies, top rated, upcoming movies... Supporting and Playing
+                Movie Trailer from the TMDB api.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "Express", "MongoDB"].map((tech, key) => (
@@ -67,7 +69,7 @@ const Projects = () => {
               <div className="flex justify-between items-center">
                 <div className="flex justify-center items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
                   <a
-                    href="https://oward-app.vercel.app/"
+                    href="https://c-nema.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
