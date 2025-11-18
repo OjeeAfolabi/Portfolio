@@ -1,5 +1,12 @@
 import React from "react";
-import { Briefcase, GraduationCap, Image, Monitor, Server, Shield } from "lucide-react";
+import {
+  Briefcase,
+  GraduationCap,
+  Image,
+  Monitor,
+  Server,
+  Shield,
+} from "lucide-react";
 import Scroll from "../Scroll";
 
 const About = () => {
@@ -19,7 +26,7 @@ const About = () => {
     "Figma",
     "Canva",
   ];
-    const others = ["Git", "GitHub", "REST APIs", "JWT", "OAuth"];
+  const others = ["Git", "GitHub", "REST APIs", "JWT", "OAuth"];
 
   return (
     <section
@@ -130,7 +137,7 @@ const About = () => {
             <div className="space-y-4 text-gray-300 ">
               <div>
                 <h4 className="font-semibold">
-                  Fullstack Web Developer at GoMyCode (Dec. 2023 - Jun. 2024)
+                  Fullstack Web Developer at GOMYCODE (Dec. 2023 - Jun. 2024)
                   <span className="text-[#FCA311]"> Ikeja, Lagos</span>
                 </h4>
                 <p>
@@ -139,7 +146,7 @@ const About = () => {
               </div>
               <div>
                 <h4 className="font-semibold">
-                  Intern FrontEnd Developer at Ditcosoft (Apr. 2025 - Sep. 2025)
+                  Intern FrontEnd Developer at DITCOSOFT (Apr. 2025 - Sep. 2025)
                   <span className="text-[#FCA311]"> United Kingdom</span>
                 </h4>
                 <p>
@@ -150,7 +157,29 @@ const About = () => {
               </div>
               <div>
                 <h4 className="font-semibold">
-                  Graphics Designer at ChopNationGrill (Nov. 2024 - March. 2025){" "}
+                  Fullstack Developer at QUICKGRADE (Apr. 2025 - Sep. 2025)
+                  <span className="text-[#FCA311]"> Lagos, Nigeria</span>
+                </h4>
+                <p>
+                  Design and develop a full-stack web application for managing
+                  student grades and assessments, utilizing React for the
+                  frontend and Node.js with Express for the backend.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold">
+                  FrontEnd Developer at TRAIDR (Apr. 2025 - Sep. 2025)
+                  <span className="text-[#FCA311]"> Lagos, Nigeria </span>
+                </h4>
+                <p>
+                  Developed user-friendly web interfaces for a trading platform,
+                  ensuring seamless user experience and responsiveness across
+                  devices.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold">
+                  Graphics Designer at CHOPNATION (Nov. 2024 - March. 2025)
                   <span className="text-[#FCA311]">Texas, USA</span>
                 </h4>
                 <p>
