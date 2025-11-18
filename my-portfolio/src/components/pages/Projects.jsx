@@ -56,7 +56,7 @@ const Projects = () => {
                 Movie Trailer from the TMDB api.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Tailwind CSS", "Firebase"].map((tech, key) => (
+                {["React", "Tailwind CSS", "Firebase", "TMDB Api"].map((tech, key) => (
                   <span
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all "
                     key={key}
