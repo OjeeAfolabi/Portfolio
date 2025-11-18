@@ -105,10 +105,9 @@ const About = () => {
                 ))}
               </div>
             </div>
-
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 w-full max-w-3xl mx-auto">
+        <div className="grid  grid-cols-1 md:grid-cols-3 gap-6 mt-8 w-full mx-auto md:px-32">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">
               <GraduationCap className="text-[#FCA311]" /> Education
@@ -124,7 +123,7 @@ const About = () => {
               <li>HSK Confucius Institute : Chinese Language Proficiency</li>
             </ul>
           </div>
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all md:col-span-2">
             <h3 className="text-xl font-bold mb-4">
               <Briefcase className="text-[#FCA311]" /> Work Experience
             </h3>
