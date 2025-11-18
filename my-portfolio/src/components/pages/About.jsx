@@ -26,7 +26,7 @@ const About = () => {
     >
       <Scroll>
         <div className="max-w-3xl w-full mx-auto px-4 flex flex-col items-center">
-          <h2 className="text-3xl font-bold mb-2 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-2  from-blue-500 to-cyan-400 bg-clip-text text-transparent">
             About Me
           </h2>
         </div>

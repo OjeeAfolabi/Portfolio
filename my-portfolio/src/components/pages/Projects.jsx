@@ -49,10 +49,9 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2">Magzilog</h3>
+              <h3 className="text-xl font-bold mb-2">C-nema</h3>
               <p className="text-gray-400 mb-4">
-                Fullstack Blogging web application. Supporting Realtime News
-                Feed, Posts and Image Uploads
+                Fullstack Movie App, Web application. Sort Movies by popular movies, top rated, upcoming movies... Supporting and Playing Movie Trailer from the TMDB api. 
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "Express", "MongoDB"].map((tech, key) => (
