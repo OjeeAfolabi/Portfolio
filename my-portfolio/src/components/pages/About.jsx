@@ -146,7 +146,7 @@ const About = () => {
               </div>
               <div>
                 <h4 className="font-semibold">
-                  Intern FrontEnd Developer at DITCOSOFT (Apr. 2025 - Sep. 2025)
+                  Intern FrontEnd Developer at DITCOSOFT (Apr. 2025 - Jul. 2025)
                   <span className="text-[#FCA311]"> United Kingdom</span>
                 </h4>
                 <p>
@@ -157,7 +157,7 @@ const About = () => {
               </div>
               <div>
                 <h4 className="font-semibold">
-                  Fullstack Developer at QUICKGRADE (Apr. 2025 - Sep. 2025)
+                  Fullstack Developer at QUICKGRADE (Aug. 2024 - Oct. 2024)
                   <span className="text-[#FCA311]"> Lagos, Nigeria</span>
                 </h4>
                 <p>
@@ -168,7 +168,7 @@ const About = () => {
               </div>
               <div>
                 <h4 className="font-semibold">
-                  FrontEnd Developer at TRAIDR (Apr. 2025 - Sep. 2025)
+                  FrontEnd Developer at TRAIDR (Feb. 2025 - Apr. 2025)
                   <span className="text-[#FCA311]"> Lagos, Nigeria </span>
                 </h4>
                 <p>
