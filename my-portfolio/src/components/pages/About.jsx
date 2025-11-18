@@ -1,5 +1,5 @@
 import React from "react";
-import { Briefcase, GraduationCap, Image, Monitor, Server } from "lucide-react";
+import { Briefcase, GraduationCap, Image, Monitor, Server, Shield } from "lucide-react";
 import Scroll from "../Scroll";
 
 const About = () => {
@@ -91,7 +91,7 @@ const About = () => {
 
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">
-                <Server className="text-[#FCA311]" />
+                <Shield className="text-[#FCA311]" />
                 Security & Others
               </h3>
               <div className="flex flex-wrap gap-2">
