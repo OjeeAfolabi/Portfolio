@@ -29,7 +29,7 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <Scroll>
-        <div className="px-4 w-150">
+        <div className="px-4 lg:w-2xl sm:w-[120px]">
           <div className="flex justify-center items-center gap-2">
             <h2 className="text-3xl font-bold bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent p-2">
               Get In Touch

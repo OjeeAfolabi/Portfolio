@@ -22,8 +22,8 @@ const LoadingScreen = ({ onComplete }) => {
   return (
     <div className="fixed inset-0 z-50  bg-cover bg-[url('https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032')] text-gray-100 flex flex-col items-center justify-center">
       <div className="absolute inset-0 bg-black/85"></div>
-      <div className="relative z-10 flex flex-col items-center">
-        <div className="mb-4 text-[4rem] font-mono font-bold">
+      <div className="relative z-10 flex flex-col items-center sm:flex sm:justify-center sm:items-center">
+        <div className="mb-4 text-[20px] sm:text-[2rem] lg:text-[4rem] font-mono font-bold ">
           {text}
           <span className="animate-blink ml-1"> | </span>
         </div>

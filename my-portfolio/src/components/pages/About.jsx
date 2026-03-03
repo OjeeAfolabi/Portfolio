@@ -31,15 +31,15 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col items-center justify-start gap-3 py-8"
+      className="min-h-screen flex flex-col items-center justify-start gap-3 py-"
     >
       <Scroll>
-        <div className="max-w-3xl w-full mx-auto px-4 flex flex-col items-center">
-          <h2 className="text-3xl font-bold mb-2  from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+        <div className="max-w-3xl w-full mx-auto px-4 flex flex-col items-center bg-red-300 ">
+          <h2 className="text-3xl font-bold mb-2 bg-linear-to-r  from-blue-500 to-cyan-400 bg-clip-text text-transparent">
             About Me
           </h2>
         </div>
-        <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all w-full max-w-3xl mx-auto">
+        <div className="rounded-xl p-4 border-white/10 border hover:-translate-y-1 transition-all w-full max-w-3xl mx-auto">
           <p className="text-gray-300 mb-6">
             Passionate developer with expertise in building scalable web
             applications and creating innovative solutions

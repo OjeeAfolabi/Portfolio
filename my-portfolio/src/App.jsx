@@ -15,7 +15,7 @@ const App = () => {
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
-        className={`min-h-screen transition-opacity duration-700 ${
+        className={`min-h-screen transition-opacity duration-700 sm:grid sm:justify-items-center ${
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-[#14213D] text-[#E5E5E5]`}
       >
