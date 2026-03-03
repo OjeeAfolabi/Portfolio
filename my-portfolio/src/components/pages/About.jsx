@@ -34,7 +34,7 @@ const About = () => {
       className="min-h-screen flex flex-col items-center justify-start gap-3 py-"
     >
       <Scroll>
-        <div className="max-w-3xl w-full mx-auto px-4 flex flex-col items-center bg-red-300 ">
+        <div className="max-w-3xl w-full mx-auto px-4 flex flex-col items-center">
           <h2 className="text-3xl font-bold mb-2 bg-linear-to-r  from-blue-500 to-cyan-400 bg-clip-text text-transparent">
             About Me
           </h2>
