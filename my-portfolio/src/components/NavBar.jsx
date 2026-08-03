@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Menu, Monitor } from "lucide-react";
 
 const NavBar = ({ menuOpen, setMenuOpen }) => {
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState("home");
+
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+
   const menus = [
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
@@ -13,29 +15,37 @@ const NavBar = ({ menuOpen, setMenuOpen }) => {
     { id: "contacts", label: "Contacts" },
   ];
 
-    useEffect(() => {
-      const sections = document.querySelectorAll("section[id]");
+  useEffect(() => {
+    const sections = Array.from(document.querySelectorAll("section[id]"));
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              setActive(entry.target.id);
-            }
-          });
-        },
-        {
-          rootMargin: "0px 0px -50% 0px", 
-          threshold: 0.3, 
+    const updateActiveSection = () => {
+      const navbarHeight = 64;
+      let currentSection = "home";
+      let closestDistance = Infinity;
+
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        const distance = Math.abs(rect.top - navbarHeight);
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          currentSection = section.id;
         }
-      );
+      });
 
-      sections.forEach((section) => observer.observe(section));
+      setActive(currentSection);
+    };
 
-      return () => {
-        sections.forEach((section) => observer.unobserve(section));
-      };
-    }, []);
+    updateActiveSection();
+    window.addEventListener("scroll", updateActiveSection, { passive: true });
+    window.addEventListener("resize", updateActiveSection);
+
+    return () => {
+      window.removeEventListener("scroll", updateActiveSection);
+      window.removeEventListener("resize", updateActiveSection);
+    };
+  }, []);
+
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
