@@ -16,8 +16,10 @@ const About = () => {
     "JavaScript",
     "TypeScript",
     "React",
-    "Next",
+    "NextJs",
     "Tailwind CSS",
+    "Shadcn UI",
+    "Framer Motion",
   ];
   const backendSkills = ["Node.js", "Express", "MongoDB", "Firebase"];
   const graphicDesignSkills = [
@@ -121,13 +123,15 @@ const About = () => {
             </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2 ">
               <li>
-                <strong>Higher National Diploma in Computer Science</strong>
+                <strong>Ordinary National Diploma in Computer Science</strong>
               </li>
               <li>
-                Relevant Courses: Fullstack Javascript Web Development
-                Certification Course
+                Relevant Courses: GoMyCode - Fullstack Javascript Web
+                Development Certification Course
               </li>
-              <li>HSK Confucius Institute : Chinese Language Proficiency</li>
+              <li>
+                HSK Confucius Institute : UNILAG - Chinese Language Proficiency
+              </li>
             </ul>
           </div>
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all md:col-span-2">
@@ -135,54 +139,53 @@ const About = () => {
               <Briefcase className="text-[#FCA311]" /> Work Experience
             </h3>
             <div className="space-y-4 text-gray-300 ">
-              <div>
+              <div className="bg-blue-500/10 rounded-md p-6">
                 <h4 className="font-semibold">
-                  Fullstack Web Developer at GOMYCODE (Dec. 2023 - Jun. 2024)
-                  <span className="text-[#FCA311]"> Ikeja, Lagos</span>
+                  Frontend Developer at TMS (Ministry Of Finance, Budget and
+                  Public Portfolio) (Dec. 2025 - Apr. 2026)
+                  <span className="text-[#FCA311]"> United kingdom</span>
                 </h4>
-                <p>
-                  Developed and Deployed a Fullstack E-commerce web application.
+                <p className="text-blue-500">
+                  Developed and optimized responsive, mobile-first frontend
+                  interfaces for the TMS portal by designing intuitive taxpayer
+                  and administrative dashboards, building reusable UI
+                  components, integrating backend APIs for dynamic
+                  functionality, and collaborating with cross-functional teams
+                  to enhance usability, accessibility, performance, and
+                  interface consistency across devices.
                 </p>
               </div>
-              <div>
+              <div className="bg-blue-500/10 rounded-md p-6">
                 <h4 className="font-semibold">
-                  Intern FrontEnd Developer at DITCOSOFT (Apr. 2025 - Jul. 2025)
-                  <span className="text-[#FCA311]"> United Kingdom</span>
-                </h4>
-                <p>
-                  Collaborated on building responsive web interfaces using React
-                  and Tailwind CSS, assisted in building frontend components and
-                  REST API integration
-                </p>
-              </div>
-              <div>
-                <h4 className="font-semibold">
-                  Fullstack Developer at QUICKGRADE (Aug. 2024 - Oct. 2024)
+                  FrontEnd Developer at DITCOSOFT (Apr. 2025 - Oct. 2025)
                   <span className="text-[#FCA311]"> Lagos, Nigeria</span>
                 </h4>
-                <p>
-                  Design and develop a full-stack web application for managing
-                  student grades and assessments, utilizing React for the
-                  frontend and Node.js with Express for the backend.
+                <p className="text-blue-500">
+                  Assisted in developing responsive, mobile‑friendly frontend
+                  interfaces for a recharge card printing and wallet management
+                  platform by building optimized dashboard components,
+                  integrating APIs for dynamic transaction data, and
+                  collaborating with backend developers to ensure usability
+                  across devices.
                 </p>
               </div>
-              <div>
+              <div className="bg-blue-500/10 rounded-md p-6">
                 <h4 className="font-semibold">
-                  FrontEnd Developer at TRAIDR (Feb. 2025 - Apr. 2025)
-                  <span className="text-[#FCA311]"> Lagos, Nigeria </span>
+                  Fullstack Developer at GOMYCODE (Sep. 2024 - Feb. 2025)
+                  <span className="text-[#FCA311]"> Lagos, Nigeria</span>
                 </h4>
-                <p>
-                  Developed user-friendly web interfaces for a trading platform,
-                  ensuring seamless user experience and responsiveness across
-                  devices.
+                <p className="text-blue-500">
+                  Built full‑stack projects using React, Node.js, Express, and
+                  MongoDB, gaining practical experience in API integration,
+                  authentication systems, and responsive UI development
                 </p>
               </div>
-              <div>
+              <div className="bg-blue-500/10 rounded-md p-6">
                 <h4 className="font-semibold">
-                  Graphics Designer at CHOPNATION (Nov. 2024 - March. 2025)
+                  Graphics Designer at CHOPNATION (Jan 2024 - June 2024)
                   <span className="text-[#FCA311]">Texas, USA</span>
                 </h4>
-                <p>
+                <p className="text-blue-500">
                   Created visually appealing graphics and marketing materials,
                   enhancing brand identity and customer engagement.
                 </p>

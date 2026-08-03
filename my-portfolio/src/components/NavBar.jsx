@@ -20,14 +20,13 @@ const NavBar = ({ menuOpen, setMenuOpen }) => {
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              // Update active link based on visible section
               setActive(entry.target.id);
             }
           });
         },
         {
-          rootMargin: "0px 0px -50% 0px", // triggers roughly when section center is in view
-          threshold: 0.3, // portion of section visible before activating
+          rootMargin: "0px 0px -50% 0px", 
+          threshold: 0.3, 
         }
       );
 
