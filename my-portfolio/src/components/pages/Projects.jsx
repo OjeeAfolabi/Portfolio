@@ -2,6 +2,8 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import logo from "../../logo/owardicon.PNG";
 import cnema from "../../logo/my-c-nemalogo.png";
+import syncora from "../../logo/favicon.png";
+import hb from "../../logo/hb.png";
 
 import Scroll from "../Scroll";
 
@@ -36,7 +38,7 @@ const Projects = () => {
                     >
                       {tech}
                     </span>
-                  )
+                  ),
                 )}
               </div>
 
@@ -58,11 +60,7 @@ const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <div className="flex gap-2.5 justify-start items-center">
                 <h3 className="text-xl font-bold">C-nema</h3>
-                <img
-                  className="w-[35px]"
-                  src={cnema}
-                  alt=""
-                />
+                <img className="w-[35px]" src={cnema} alt="" />
               </div>{" "}
               <p className="text-gray-400 mb-4">
                 Fullstack Movie App, Web application. Sort Movies by popular
@@ -78,13 +76,106 @@ const Projects = () => {
                     >
                       {tech}
                     </span>
-                  )
+                  ),
                 )}
               </div>
               <div className="flex justify-between items-center">
                 <div className="flex justify-center items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
                   <a
                     href="https://c-nema.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Project
+                  </a>
+                  <span>
+                    <ArrowRight />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+              <div className="flex gap-2.5 w-[170px] justify-start items-center">
+                <h3 className="text-xl font-bold">Syncora</h3>
+                <img className="w-[30px]" src={syncora} alt="" />
+              </div>
+
+              <p className="text-gray-400 mb-4">
+                A modern AI workflow automation SaaS landing page built with
+                Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
+                Designed as a front-end concept, it highlights intelligent
+                product storytelling through interactive sections, polished
+                motion, responsive layouts, and conversion-focused design,
+                delivering a fast, engaging, and visually compelling user
+                experience.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "Next.Js",
+                  "React",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "Framer Motion",
+                ].map((tech, key) => (
+                  <span
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all "
+                    key={key}
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <div className="flex justify-center items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
+                  <a
+                    href="https://syncora-saas.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Project
+                  </a>
+                  <span>
+                    <ArrowRight />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+              <div className="flex gap-2.5 w-[170px] justify-start items-center">
+                <h3 className="text-xl font-bold">Harrington & Blackwell</h3>
+                <img className="w-[30px]" src={hb} alt="" />
+              </div>
+
+              <p className="text-gray-400 mb-4">
+                A premium SaaS interface showcasing a responsive landing page
+                and dashboard UI, built with Next.js, React, TypeScript,
+                Tailwind CSS, and Framer Motion. Developed as a front-end
+                implementation, it emphasizes modern UI/UX, performance,
+                accessibility, reusable components, and smooth animations across
+                all devices.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "Next.Js",
+                  "React",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "Framer Motion",
+                ].map((tech, key) => (
+                  <span
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all "
+                    key={key}
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <div className="flex justify-center items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
+                  <a
+                    href="https://harrington-blackwell.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
